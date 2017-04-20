@@ -1,3 +1,3 @@
 # JavaStudies
 
-Learning to write my data structures.
+Learning to write data structures.
