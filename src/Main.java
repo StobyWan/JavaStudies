@@ -9,7 +9,7 @@ public class Main {
         test.insert(5);
         test.insert(6);
         test.printInOrder();
-        System.out.println(test);
+//        System.out.println(test);
 ///////////////////////////////
         Heap h = new Heap();
         h.add(1);
@@ -19,15 +19,15 @@ public class Main {
         int t = h.peek();
         int a = h.poll();
         int z = h.poll();
-        System.out.println(t);
-        System.out.println(a);
-        System.out.println(z);
-        System.out.println(h);
+//        System.out.println(t);
+//        System.out.println(a);
+//        System.out.println(z);
+//        System.out.println(h);
 ///////////////////////////////
-
-
-
-
+        MakeChange mk = new MakeChange();
+        int[] coins = {1,5,10,25,50};
+        long ways = mk.makeChange(coins, 67);
+        System.out.println("There are " + ways +" ways.");
     }
 }
 
